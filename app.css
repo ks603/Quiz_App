@@ -1,6 +1,6 @@
 :root {
   background-color: #ecf5ff;
-  font-weight: 62.5%;
+  font-size: 62.5%;
 }
 
 * {
@@ -11,7 +11,10 @@
   color: #333;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   margin-bottom: 1rem;
 }
 
@@ -37,7 +40,7 @@ h3 {
   font-weight: 500;
 }
 
-/* Utilities */
+/* UTILITIES */
 
 .container {
   width: 100vw;
@@ -47,6 +50,7 @@ h3 {
   align-items: center;
   max-width: 80rem;
   margin: 0 auto;
+  padding: 2rem;
 }
 
 .container > * {
@@ -75,8 +79,7 @@ h3 {
   display: none;
 }
 
-/* Buttons */
-
+/* BUTTONS */
 .btn {
   font-size: 1.8rem;
   padding: 1rem 0;
@@ -93,7 +96,7 @@ h3 {
   cursor: pointer;
   box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
   transform: translateY(-0.1rem);
-  transition: transform 550ms;
+  transition: transform 150ms;
 }
 
 .btn[disabled]:hover {
